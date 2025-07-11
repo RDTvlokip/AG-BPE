@@ -101,7 +101,7 @@ except FileNotFoundError:
 
 For a detailed explanation of the methodology, architecture, and a full analysis of the results, please refer to our paper:
 
-**[AG-BPE: Attention-Guided Byte-Pair Encoding for Semantic-Aware Tokenization](link_to_your_paper.pdf)**
+**[AG-BPE: Attention-Guided Byte-Pair Encoding for Semantic-Aware Tokenization](Attention_Guided_BPE__AG_BPE_Théo_CHARLET.pdf)**
 
 ## 📬 Future Work
 This project proves the superiority of the AG-BPE approach. Future work will focus on:
