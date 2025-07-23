@@ -1,0 +1,143 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="6-MKIKFadXHAV3cO4Lul6EO8yN6roYBKFiQ6joVfR28">
+
+    <!-- Description -->
+    <meta name="description" content="AG-BPE (Attention-Guided Byte-Pair Encoding) is an advanced attention-based semantic tokenization method designed to improve the performance of NLP models. Research conducted by RDTvlokip (Théo Charlet).">
+
+    <!-- Keywords -->
+    <meta name="keywords" content="
+    AG-BPE, AG BPE, Attention-Guided BPE, Attention-Guided Byte Pair Encoding, 
+    Attention-Guided Byte-Pair Encoding for Semantic-Aware Tokenization, 
+    Context-Aware Tokenization, Semantic Tokenization, Tokenizer, Custom Tokenizer, 
+    Byte Pair Encoding, BPE, Transformer Tokenizer, Dynamic Tokenization, 
+    Co-trained Tokenizer, Co-training, Token Merge, Token Fusion, Semantic Merge, 
+    ContextAnalyzer, Tokenizer Pitfall, Pretraining Pitfall, Pre-training Pitfall, 
+    Pitfall of Pretraining, Training Pitfall, Vocabulary Shift, Representational Shift, 
+    NLP, Natural Language Processing, AI, Artificial Intelligence, Deep Learning, 
+    Machine Learning, Tokenization Method, Tokenization Strategy, Compression, 
+    Token Compression, Text Compression, Model Compression, Vocabulary Optimization, 
+    Dynamic Vocabulary, Adaptive Tokenization, Semantic Segmentation, Subword Tokenization, 
+    Neural Networks, Transformer, Language Model, GPT, GPT-2, GPT-3, GPT-4, GPT Tokenizer, 
+    InfiniGPT, AG-BPE Tokenizer, AG BPE Tokenizer, Custom BPE, Open Source Tokenizer, 
+    NLP Innovation, Semantic Guidance, Tokenizer Research, Tokenization Research, 
+    RDTvlokip, T. Charlet, Theo Charlet, RDTvlokip (Théo Charlet), LMC, Scientific Research Tokenizer, 
+    Tokenizer Architecture, DOI 10.5281/zenodo.15874092, Zenodo AG-BPE, 
+    AG-BPE Zenodo, Tokenizer 2025, Semantic-aware Tokenizer, Tokenizer with Attention, 
+    Concurrent Training, Representational Mismatch, Semantic Drift NLP, 
+    Experimental Tokenization, Transformer-based Tokenization, BPE Alternatives, 
+    State-of-the-Art Tokenizer, Tokenization Benchmark, Compression Efficiency, 
+    Subword Modeling, AI Tokenizer, Open Source NLP Tools, Attention-based Merge Decisions, 
+    Semantic Context Model, Context-Guided Tokenization
+    ">
+
+    <!-- Author -->
+    <meta name="author" content="RDTvlokip (Théo Charlet)">
+
+    <!-- Publisher -->
+    <meta name="publisher" content="Zenodo, Open Science, RDTvlokip">
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="AG‑BPE: Attention-Based Semantic Tokenizer - by RDTvlokip (Théo Charlet)">
+    <meta property="og:description" content="Discover AG-BPE, an innovative tokenizer that co-trains a ContextAnalyser to dynamically guide BPE merging semantically. Research results available on Zenodo.">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="fr_FR">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AG-BPE - A New Approach to Attention-Driven Tokenization">
+    <meta name="twitter:description" content="New tokenization method based on contextual attention. Co-training required to avoid 'Pretraining Pitfall'. Results published on Zenodo.">
+
+    <!-- Citation -->
+    <meta name="citation_title" content="The Pre-Training Pitfall: Why Contextual Guidance for BPE Must Be Trained Concurrently, Not A-Priori">
+    <meta name="citation_author" content="T. Charlet">
+    <meta name="citation_publication_date" content="2025-07-13">
+    <meta name="citation_doi" content="10.5281/zenodo.15874092">
+    <meta name="citation_pdf_url" content="https://zenodo.org//records/15874092/files/The%20Pre-Training%20Pitfall%20;%20Why%20Contextual%20Guidance%20for%20BPE%20Must%20Be%20Trained%20Concurrently,%20Not%20A-Priori%20;%20Th%C3%A9o%20CHARLET.pdf">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://zenodo.org/records/15874092">
+    
+    <title>AG-BPE (Attention-Guided BPE)</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            max-width: 500px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .countdown {
+            font-size: 48px;
+            font-weight: bold;
+            color: #764ba2;
+            margin: 20px 0;
+        }
+        .message {
+            font-size: 18px;
+            color: #555;
+            margin: 20px 0;
+        }
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #764ba2;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 AG-BPE Research</h1>
+        <div class="message">Redirecting to Zenodo in:</div>
+        <div class="countdown" id="counter">0</div>
+        <div class="message">seconds</div>
+        <div class="spinner"></div>
+        <p style="color: #777; font-size: 14px;">
+            AG-BPE Research by RDTvlokip (Théo Charlet)
+        </p>
+    </div>
+
+    <script>
+        let timeLeft = 5;
+        const counter = document.getElementById('counter');
+        
+        const countdown = setInterval(() => {
+            timeLeft--;
+            counter.textContent = timeLeft;
+            
+            if (timeLeft <= 0) {
+                clearInterval(countdown);
+                window.location.href = "https://doi.org/10.5281/zenodo.15874092";
+            }
+        }, 1000);
+    </script>
+
+
+<div class="glasp-extension-toaster" style="display: block; width: 320px; margin: unset; padding: unset; border: unset; border-radius: unset; outline: unset; background-color: unset; box-shadow: unset; position: fixed; top: 40px; right: 24px; z-index: 9999;"></div><div class="glasp-extension" style="display: block; width: unset; margin: unset; padding: unset; border: unset; border-radius: unset; outline: unset; background-color: unset; box-shadow: unset; position: fixed; bottom: 16px; right: 16px; z-index: 9999;"></div></body></html>
