@@ -2,16 +2,16 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15864340.svg)](https://doi.org/10.5281/zenodo.15864340)
 
-Shield: [![CC BY-ND 4.0][cc-by-nd-shield]][cc-by-nd]
+Shield: [![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
 
 This work is licensed under a
-[Creative Commons Attribution-NoDerivs 4.0 International License][cc-by-nd].
+[Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License][cc-by-nc-nd].
 
-[![CC BY-ND 4.0][cc-by-nd-image]][cc-by-nd]
+[![CC BY-NC-ND 4.0][cc-by-nc-nd-image]][cc-by-nc-nd]
 
-[cc-by-nd]: https://creativecommons.org/licenses/by-nd/4.0/
-[cc-by-nd-image]: https://licensebuttons.net/l/by-nd/4.0/88x31.png
-[cc-by-nd-shield]: https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg
+[cc-by-nc-nd]: http://creativecommons.org/licenses/by-nc-nd/4.0/
+[cc-by-nc-nd-image]: https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png
+[cc-by-nc-nd-shield]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg
 
 A novel tokenization architecture that proves a data-efficient, semantic-aware approach can surpass industry standards in robustness, efficiency, and linguistic intelligence.
 
